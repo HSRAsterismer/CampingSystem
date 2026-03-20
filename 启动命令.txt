@@ -1,0 +1,23 @@
+### 2. 启动后端
+
+```powershell
+cd server
+.\mvnw.cmd spring-boot:run
+```
+
+默认地址：`http://127.0.0.1:8080`
+
+### 3. 启动前端
+
+```powershell
+cd frontend
+npm.cmd install
+npm.cmd run dev
+```
+
+默认地址：`http://127.0.0.1:5173`
+
+## 演示账号
+- 管理员：`admin / admin123`
+- 露营用户：`camper / camper123`
+- 生态观察员：`eco / eco123`
